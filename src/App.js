@@ -3,6 +3,7 @@ import './App.css';
 import "antd/dist/antd.css";
 
 import Helicopter from './Helicopter/helicopters';
+import NavHeader from './NavHeader/navHeader';
 
 function App() {
   const [helicopters] = useState([
@@ -53,10 +54,9 @@ function App() {
     },
   ])
   return (
-    <div className="App">
-      <>
-        <Helicopter helicopters={helicopters} />
-      </>
+    <div className="App center">
+      <NavHeader />
+      <Helicopter helicopters={helicopters} />
     </div>
   );
 }

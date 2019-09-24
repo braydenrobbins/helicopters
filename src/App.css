@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(139, 139, 139);
 }
 
 .App-logo {
@@ -19,4 +20,14 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.center {
+  margin: auto;
+  width: 65%;
+  padding: 1%;
+}
+
+.search {
+  margin-top: .5em;
 }
